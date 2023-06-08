@@ -1,7 +1,7 @@
 import os
 
 dir_path = input("Enter the directory path: ")
-first_num = input("Enter the first number in the sequence: ")
+first_num = input("Enter the digital object number: ")
 
 # get a list of all files in the directory
 file_list = os.listdir(dir_path)
