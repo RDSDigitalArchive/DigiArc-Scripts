@@ -35,12 +35,12 @@ Usage:
 rename_dir.py
 ``
 
-The command-line will return a prompt for the input directory path followed by the first number in the sequence:
+The command-line will return a prompt for the input directory path followed by the digital object number:
 
 ``
 Enter the directory path: /path/to/input_directory
 ``
 
 ``
-Enter the first number in the sequence: ####
+Enter the digital object number: ####
 ``
