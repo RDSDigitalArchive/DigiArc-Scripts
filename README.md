@@ -44,3 +44,18 @@ Enter the directory path: /path/to/input_directory
 ``
 Enter the digital object number: ####
 ``
+
+### validate.py
+This script will validate an MD5 file or directory containing a batch of MD5 files against corresponding file or files. The MD5 input may be in a file or directory form whereas the corresponding file(s) must be in the form of a directory. 
+
+The command-line will display the validation results, indicating whether each MD5 file is valid or invalid. At the end of the batch validation, a summary will be printed showing the total count of files validated.
+
+Usage:
+
+``
+validate.py /path/to/input_file /path/to/corresponding_directory
+``
+
+``
+validate.py /path/to/input_directory /path/to/corresponding_directory
+``
