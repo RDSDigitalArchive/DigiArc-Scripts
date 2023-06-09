@@ -18,7 +18,7 @@ def extract_data(csv_file, field_value):
     return extracted_data
 
 def sanitize_tag(tag):
-    # Remove invalid characters and spaces from the tag
+    # Remove invalid characters and spaces from the 'tag' input and substitute with underscores.
     tag = re.sub(r'[^\w.-]', '_', tag)
     tag = re.sub(r'\s+', '_', tag)
     return tag
