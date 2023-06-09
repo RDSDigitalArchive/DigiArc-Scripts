@@ -18,7 +18,7 @@ def extract_data(csv_file, field_value):
     return extracted_data
 
 def sanitize_tag(tag):
-    # Remove invalid characters and spaces from the 'tag' input and substitute with underscores.
+    # Remove invalid characters and spaces from the 'tag' input and substitute with underscores
     tag = re.sub(r'[^\w.-]', '_', tag)
     tag = re.sub(r'\s+', '_', tag)
     return tag
@@ -43,7 +43,7 @@ def create_xml(data, field_titles, output_file):
 
 if __name__ == '__main__':
     if len(sys.argv) < 3:
-        print("Usage: python extract_data.py input_csv output_directory")
+        print("Usage: extract_data.py input_csv output_directory")
         sys.exit(1)
 
     csv_file = sys.argv[1]
