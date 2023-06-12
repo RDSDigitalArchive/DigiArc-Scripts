@@ -9,6 +9,21 @@ Usage with option to specify the output directory:
 batchmd5.py /path/to/input_directory -o /path/to/output_directory
 ``
 
+### extract_data.py
+This script will extract relevant data from the Digital Object Register (CSV file format), pertaining to a specified digital object, and create a content information file in both CSV and XML format, to be included in the appropriate archival information package.
+
+Usage:
+
+``
+extract_data.py /path/to/input_csv /path/to/output_directory
+``
+
+The command-line will return a prompt to input the digital object number:
+
+``
+Enter the value (RDS_DO_####):
+``
+
 ### md5.py
 This script will create an MD5 manifest file for a digital file. The default output directory is the current working directory, however there is an option to specify the output directory with the ‘-o’ argument.
 
