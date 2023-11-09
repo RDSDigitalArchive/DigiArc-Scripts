@@ -47,7 +47,7 @@ if __name__ == '__main__':
         sys.exit(1)
 
     csv_file = sys.argv[1]
-    field_value = input("Enter the value (RDS_DO_####): ")
+    field_value = input("Enter the digital object number (RDS_DO_####): ")
     output_directory = sys.argv[2]
 
     # Create the output directory if it doesn't exist
