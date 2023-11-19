@@ -25,7 +25,7 @@ extract_data.py /path/to/input_csv /path/to/output_directory
 The command-line will return a prompt to input the digital object number:
 
 ``
-Enter the value (RDS_DO_####):
+Enter the digital object number (RDS_DO_####):
 ``
 
 ### md5.py
